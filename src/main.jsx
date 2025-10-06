@@ -6,8 +6,7 @@ import Home from './pages/Home.jsx'
 import Item from './pages/Item.jsx'
 import Profile from './pages/Profile.jsx'
 
-import './style/main.css'
-
+import './main.css'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>

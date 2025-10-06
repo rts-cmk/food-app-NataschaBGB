@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
 
+
+
+
+import '../style/Profile.css'
+
 function Profile() {    
 
     return (

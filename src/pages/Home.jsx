@@ -18,12 +18,14 @@ import user from '../assets/icons/user.png'
 import chat from '../assets/icons/chat.png'
 import favourites from '../assets/icons/favourites.png'
 
+import '../style/Home.css'
+
 
 function Home() {
 
     return (
         <>
-            <header>
+            <header className="home-header">
                 <section className="headline">
                     <h1>Foodgo</h1>
                     <Link to={"/profile"}>
@@ -34,7 +36,7 @@ function Home() {
                     <p>Order your favourite food!</p>
                 </section>
             </header>
-            <main>
+            <main className="home-main">
                 <section className="searchBar">
                     <img src={search} className="search-icon" alt="search" />
                     <input type="search" id="search" />
@@ -93,7 +95,7 @@ function Home() {
                     </div>
                 </section>
             </main>
-            <footer>
+            <footer className="home-footer">
                 <section className="footer-navigation">
                     <Link to={"/"}>
                         <img src={home} className="home-img" alt="home-icon" />
