@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.home-header, .home-main {
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.home-header {
+    margin: 2rem auto 0;
+}
+.home-header .headline {
+    font-family: "Lobster", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: #3C2F2F;
+}
+.home-header img {
+    height: 60px;
+    border-radius: 20px;
+}
+.home-header .subheadline {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+.searchBar {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    margin: 3rem 0 0;
+}
+.searchBar .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(-50%, -50%);
+    height: 25px;
+}
+.searchBar .filter-icon {
+    height: 50px;
+    background-color: #EF2A39;
+    padding: .5rem;
+    border-radius: 20px;
+}
+.searchBar input {
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 13px 0px rgba(173,173,173,0.87);
+}
+
+
+.home-main .burgers {
+    margin: 3rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+    row-gap: 2rem;
+    color: #3C2F2F;
+}
+.home-main .burgers a {
+    color: #3C2F2F;
+    text-decoration: none;
+}
+.home-main .burgers .burger-img {
+    height: 120px;
+    width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.home-main .burgers .star {
+    height: 16px;
+}
+.home-main .burgers .heart {
+    height: 24px;
+}
+.home-main .burgers .burger {
+    box-shadow: 0px 0px 13px 0px rgba(173,173,173,0.87);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.home-main .burgers .burger .details {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 0;
+}
+.home-main .burgers .burger .details .review {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.home-footer {
+    position: relative;
+    height: fit-content;
+    background-color: #EF2A39;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.home-footer .footer-navigation {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    width: 100%;
+}
+.home-footer .footer-navigation .chat-img {
+    grid-column: 4 / 5;
+}
+.home-footer .footer-navigation .favourites-img {
+    grid-column: 5 / 6;
+}
+.home-footer img {
+    height: 24px;
+}
+.home-footer .add-border {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.home-footer .add-button {
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: #EF2A39;
+    box-shadow: 0px 0px 13px 0px rgba(102, 102, 102, 0.87);
+}

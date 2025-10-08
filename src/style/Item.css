@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.item-header, .item-main, .item-footer {
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto 0;
+}
+.item-header img {
+    height: 25px;
+}
+
+
+.item-main .hero img {
+    height: 350px;
+    width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.item-main .hero {
+    font-size: .8rem;
+    color: #3C2F2F;
+}
+
+.item-main .rating {
+    display: flex;
+    gap: 10px;
+    color: #808080;
+    margin: 2rem 0;
+}
+.item-main .rating img {
+    height: 20px;
+}
+
+.item-main .description {
+    color: #6A6A6A;
+    line-height: 25px;
+}
+
+.item-main .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.item-main .info .spicy progress {
+    display: block;
+    accent-color: #EF2A39;
+    margin: .5rem 0;
+}
+.item-main .info .spicy .spice-level {
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+}
+.item-main .info .spicy .spice-level .mild {
+    color: #1CC019;
+}
+.item-main .info .spicy .spice-level .hot {
+    color: #EF2A39;
+}
+
+.item-main .info .portion {
+    display: flex;
+}
+.item-main .info .portion img {
+    height:40px;
+    background-color: #EF2A39;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 7px 18px -4px rgba(176,126,0,0.75);
+}
+.item-main .info .portion input {
+    height: 40px;
+    width: 40px;
+    border: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+.item-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: white;
+}
+.item-footer .price {
+    background-color: #EF2A39;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0px 7px 18px -4px rgba(148,148,148,0.75);
+}
+.item-footer .order-now {
+    background-color: #3C2F2F;
+    padding: 1.5rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0px 7px 18px -4px rgba(148,148,148,0.75);
+}

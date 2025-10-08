@@ -1,0 +1,110 @@
+.profile-wrapper {
+    background-color: rgb(255, 101, 101);
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* MARK: Header
+*/
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 160px;
+}
+.profile-header img {
+    height: 25px;
+    margin: 1rem;
+}
+.profile-header .profile-pic {
+    position: absolute;
+    height: 150px;
+    bottom: -140px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    border: 5px solid #EF2A39;
+}
+
+
+/* MARK: Main
+*/
+.profile-main {
+background-color: white;
+border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+/* MARK: Profile
+*/
+.profile-main .profile {
+    width: 90%;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+/* MARK: Input
+*/
+.profile-main .profile .profile-name, .profile-main .profile .profile-email, .profile-main .profile .profile-address, .profile-main .profile .profile-password {
+    position: relative;
+    padding: .6rem 0;
+}
+.profile-main .profile .profile-name label, .profile-main .profile .profile-email label,.profile-main .profile .profile-address label,.profile-main .profile .profile-password .label {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    color: #808080;
+    background-color: #ffffff;
+    padding: 0 8px;
+    font-size: 14px;
+}
+.profile-main .profile input {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 2px solid #E1E1E1;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3C2F2F;
+}
+.profile-main .profile .profile-password .label {
+    display: flex;
+    gap: 8px;
+}
+.profile-main .profile .profile-password .label img {
+    height: 13px;
+}
+
+
+
+/* MARK: Footer
+*/
+.profile-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    color: white;
+    font-size: .8rem;
+}
+.profile-footer img {
+    height: 30px;
+}
+.profile-footer .edit, .profile-footer .logout {
+    display: flex;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #3C2F2F;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0px 7px 18px -4px rgba(148,148,148,0.75);
+}
+.profile-footer .logout {
+    color: #EF2A39;
+    background-color: #FFFFFF;
+    border: 2px solid #EF2A39;
+}
